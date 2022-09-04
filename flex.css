@@ -1,0 +1,121 @@
+header {
+
+    text-transform: uppercase;
+    text-align: center;
+    margin: 2.2em 5rem;
+    color: #D3FFE9;
+    background-color: #090909;
+    font-size: 42pt;
+}
+
+body{
+
+    background-color: #9BC4BC;
+}
+
+.contenedor {
+
+    background-color: #9BC4BC;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+
+    height: 1200px;
+    width: 100%;
+    margin: 2.5em auto;
+}
+
+.item {
+    display: flex;
+    flex-flow: wrap;
+    
+    height: 320px;
+    width: 290px;
+    border: 1px solid #090909;
+    padding: auto;
+    margin: 1em 1em;
+}
+.item:hover {
+    position:sticky;
+    transition: transform 0.6s;
+    transform: scale(1.1) translateY(-20px);
+    box-shadow: 0px 20px 18px rgba(0,0,0,0.25);
+}
+
+#info {
+
+    background-color: #D3FFE9;
+    text-transform: uppercase;
+    text-align: center;
+    color: #090909;
+    flex-flow: column;
+    text-orientation: sideways;
+}
+footer{
+    
+}
+
+.item1 {
+
+    background-image: url(./flex-img/Nemocon.jpg);
+    background-size: cover;
+        
+} 
+.item2
+{
+
+    background-image: url(./flex-img/elTuparro.jpg);
+    background-size: cover;
+} 
+.item3 {
+
+    background-image: url(./flex-img/puntaGallinas.png);
+    background-size: cover;
+} 
+.item4 {
+
+    background-image: url(./flex-img/cano_cristales.png);
+    background-size: cover;
+}
+.item5 {
+
+    background-image: url(./flex-img/reservaRioClaro.png);
+    background-size: cover;
+} 
+.item6 {
+
+    background-image: url(./flex-img/cerroAzul.jpg);
+    background-size: cover;
+} 
+.item7 {
+
+    background-image: url(./flex-img/desiertodelaTatacoa.png);
+    background-size: cover;
+}
+.item8 {
+
+    background-image: url(./flex-img/puertos_narino.png);
+    background-size: cover;
+}
+.item9 {
+
+    background-image: url(./flex-img/las-lajas.png);
+    background-size: cover;
+} 
+.item10 {
+
+    background-image: url(./flex-img/ballenas-jorobadas.png);
+    background-size: cover;
+} 
+.item11 {
+
+    background-image: url(./flex-img/Los_Estoraques_Norte_de_Santander_Colombia_by_Edgar.png);
+    background-size: cover;
+} 
+.item12 {
+
+    background-image: url(./flex-img/sierra_nevada_sta_marta.png);
+    background-size: cover;
+}
+
