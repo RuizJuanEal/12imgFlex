@@ -1,11 +1,17 @@
-header {
+* {
+    margin: 0;
+}
 
+header {
+    padding: 60px 20px;
+    margin-top: 10px;
+    background-color: #090909;
+    color: #D3FFE9;
     text-transform: uppercase;
     text-align: center;
-    margin: 2.2em 5rem;
-    color: #D3FFE9;
-    background-color: #090909;
-    font-size: 42pt;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 62pt;
 }
 
 body{
@@ -20,10 +26,8 @@ body{
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
-
     height: 1200px;
     width: 100%;
-    margin: 2.5em auto;
 }
 
 .item {
@@ -31,9 +35,8 @@ body{
     flex-flow: wrap;
     
     height: 320px;
-    width: 290px;
+    width: 300px;
     border: 1px solid #090909;
-    padding: auto;
     margin: 1em 1em;
 }
 .item:hover {
@@ -45,15 +48,16 @@ body{
 
 #info {
 
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    color: #090909;
     background-color: #D3FFE9;
     text-transform: uppercase;
-    text-align: center;
-    color: #090909;
-    flex-flow: column;
-    text-orientation: sideways;
-}
-footer{
+    font-size: 25pt;
     
+    display: flex;
+    align-items: center;
+    writing-mode:sideways-lr;
 }
 
 .item1 {
